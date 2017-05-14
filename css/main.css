@@ -1,1 +1,66 @@
 /* Agrega aquí tus estilos*/
+/*font-family: 'Libre Baskerville', serif;
+font-family: 'Julius Sans One', sans-serif;*/
+body, a {
+	font-family: 'Libre Baskerville', serif;
+	margin: 0;
+	width: 100%;
+    color: #325050;
+    font-size: 0.9em;
+	text-decoration: none;
+}
+
+body h3 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+}
+
+#zen-intro header {
+	height: 130px;
+	width: 100%;
+	color: #fff;
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 100px;
+}
+#zen-intro header h1 {
+	margin: 0;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+}
+
+#zen-intro header h2 {
+	margin: 0;
+	font-size: 1.2em;
+	font-style: italic;
+	color: rgba(255,255,255,0.6);
+}
+
+.summary, .preamble, .participation, .explanation, .benefits, .requirements  {
+	padding: 0 100px;
+	line-height: 2;
+	margin-top: 50px;
+}
+
+.summary a{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.2em;
+	color: #4A896B;
+}
+
+.summary a:hover {
+	background-color: #29897E;
+	padding: 5px;
+	color: #fff;
+}
+
+#zen-participation {
+	background-color: rgba(138,188,159,0.5);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 100px;
+}
