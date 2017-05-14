@@ -1,20 +1,25 @@
 /* Agrega aquí tus estilos*/
 /*font-family: 'Libre Baskerville', serif;
 font-family: 'Julius Sans One', sans-serif;*/
-body, a {
+
+body {
 	font-family: 'Libre Baskerville', serif;
 	margin: 0;
 	width: 100%;
     color: #325050;
     font-size: 0.9em;
+}
+a {
+	color: #325050;
+    font-size: 0.9em;
 	text-decoration: none;
 }
-
 body h3 {
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 22px;
 	font-weight: normal;
 }
+
 
 #zen-intro header {
 	height: 130px;
@@ -39,11 +44,15 @@ body h3 {
 	font-style: italic;
 	color: rgba(255,255,255,0.6);
 }
-
-.summary, .preamble, .participation, .explanation, .benefits, .requirements  {
+.main {
+	width: 100%;
+}
+.summary, .preamble, .participation, .explanation, .benefits, .requirements, footer{
 	padding: 0 100px;
 	line-height: 2;
 	margin-top: 50px;
+	width: 60%;
+	float: left;
 }
 
 .summary a{
@@ -63,4 +72,37 @@ body h3 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 50px 100px;
+}
+
+.sidebar {
+	right: 0;
+	text-align: left;
+	position: absolute;
+	width: 20%;
+	color: #325050;
+	height: auto;
+}
+
+.sidebar a, .sidebar ul li{
+	list-style: none;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1em;
+	margin-top: 25px;
+	color: #325050;
+}
+
+.archives, .resources {
+	margin-top: 80px;
+}
+
+.main footer {
+    background-color: #325050;
+    text-align: center;
+    width: 87%;
+}
+
+.main footer a {
+	color: #fff;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.2em;
 }
