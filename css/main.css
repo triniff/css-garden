@@ -79,8 +79,8 @@ body h3 {
 	text-align: left;
 	position: absolute;
 	width: 20%;
+	margin: 45px 50px 0 0;
 	color: #325050;
-	height: auto;
 }
 
 .sidebar a, .sidebar ul li{
